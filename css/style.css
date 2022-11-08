@@ -1,0 +1,241 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,*before,*:after{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0; border: 0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none}
+ul li{ list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
+
+
+body {
+  font-family: 'Oswald', sans-serif;
+}
+.header__main {
+  padding: 11px 20px 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner {
+  color: white;
+  background: url(../img/background-mobile.jpg) no-repeat;
+  position: relative;
+}
+.banner__main {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  padding: 27px 35px 25px; 
+}
+.tagline {
+  padding: 0 60px 167px;
+}
+.banner__img {
+  position: absolute;
+  top: 54%;
+  left: 20px;
+}
+.button {
+  margin: 135px 20px 10px;
+  display: flex;
+  justify-content: center;
+}
+.button button{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  background-color: #68B738;
+  padding: 10px 74px;
+  
+  
+}
+.cards__weighloss {
+  padding: 20px;
+  margin: 20px;
+  background: #F2F2F2;
+
+}
+.cards__weighloss--logo {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 37px;
+  padding: 0 0 40px 75px;
+  position: relative;
+  
+  
+}
+.cards__weighloss--logo::before {
+  content: '';
+  background: url(../img/cat_back.png) no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 75px;
+  height: 53px;
+}
+.cardsmass::before {
+  background: url(../img/cat_backi.png) no-repeat;
+}
+.cards__weighloss--logo h2 {
+  padding-top: 10px;
+}
+.cards__weighloss--text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  border-bottom: 1px solid #D9D9D9;
+  padding-bottom: 23px;
+ 
+}
+.cards__catalog {
+ padding: 19px 19px 0 19px ;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 16px;
+}
+.howwork {
+  padding: 20px 20px 40px;
+}
+.howwork__logo {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  padding-bottom: 20px;
+}
+.howwork__punkts {
+  font-family: 'Open Sans', sans-serif;
+}
+.howwork__punkts--text {
+  padding: 4px 0 20px 75px ;
+  position: relative;
+}
+.howwork-leaf::before {
+ content: '';
+ width: 60px;
+ height: 60px;
+ background: url(../img/icons/leaf.png) no-repeat;
+ position: absolute;
+ top: 0;
+ left: 0;
+}
+.howwork-powder::before {
+  content: '';
+ width: 60px;
+ height: 60px;
+ background: url(../img/icons/powder.png) no-repeat;
+ position: absolute;
+ top: 0;
+ left: 0;
+}
+.howwork-fork::before {
+  content: '';
+  width: 60px;
+  height: 60px;
+  background: url(../img/icons/fork.png) no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.howwork-clock::before {
+  content: '';
+  width: 60px;
+  height: 60px;
+  background: url(../img/icons/clock.png) no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.example {
+  padding: 27px 20px 30px;
+  background: #EAEAEA;
+}
+.example__logo {
+  font-weight: 400;
+font-size: 36px;
+line-height: 40px;
+padding-bottom: 33px;
+}
+.example__text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  padding-bottom: 25px;
+}
+.example__banners {
+  /* position: relative; */
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.example__banners-joint {
+  position: relative;
+  width: 124px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #CDCDCD;
+}
+
+.example__banners-text {
+  position: absolute;
+  top: 47px;
+  width: 60px;
+  left: 22px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  padding: 0 10px;
+  background: #EAEAEA;
+  z-index: 4;
+}
+.example__cena {
+  padding: 50px 0  0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  background: url(../img/before-mobile\ 1.png) no-repeat center;
+ 
+}
+.example__cena-logo {
+  display: flex;
+  justify-content: center;
+}
+.example__cena-panel {
+  display: flex;
+  justify-content: space-between;
+  padding: 300px 0 30px;
+}
