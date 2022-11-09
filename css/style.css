@@ -33,6 +33,16 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 
 
+
+
+
+@font-face {
+  font-family: 'Font Arial';
+  src: local('Font Name'), 
+	   url('/fonts/arial.woff') format('woff'),
+	   url('/fonts/arial.ttf') format('ttf'),
+	   /* url('/fonts/font.eot') format('eot'); */
+}
 body {
   font-family: 'Oswald', sans-serif;
 }
@@ -109,7 +119,7 @@ body {
   padding-top: 10px;
 }
 .cards__weighloss--text {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Font Arial';
   font-size: 14px;
   border-bottom: 1px solid #D9D9D9;
   padding-bottom: 23px;
@@ -131,7 +141,7 @@ body {
   padding-bottom: 20px;
 }
 .howwork__punkts {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Font Arial';
 }
 .howwork__punkts--text {
   padding: 4px 0 20px 75px ;
@@ -184,7 +194,7 @@ line-height: 40px;
 padding-bottom: 33px;
 }
 .example__text {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Font Arial';
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
@@ -213,7 +223,7 @@ padding-bottom: 33px;
   top: 47px;
   width: 60px;
   left: 22px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Font Arial';
   text-align: center;
   font-weight: 400;
   font-size: 12px;
@@ -237,5 +247,28 @@ padding-bottom: 33px;
 .example__cena-panel {
   display: flex;
   justify-content: space-between;
-  padding: 300px 0 30px;
+  align-items: flex-end;
+  padding: 300px 38px 30px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+.example__cena-button {
+  width: 84px;
+  height: 14px;
+  background: #FFFFFF;
+  border: 1px solid #CDCDCD;
+  border-radius: 6px;
+  position: relative;
+
+}
+.example__cena-button::before {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  content: '';
+  width: 35px;
+  height: 6px;
+  background: #68B738;
+  border-radius: 6px;
 }
