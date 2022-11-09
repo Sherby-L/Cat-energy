@@ -237,7 +237,7 @@ padding-bottom: 33px;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  background: url(../img/before-mobile\ 1.png) no-repeat center;
+  background: url(../img/before-mobilecat.png) no-repeat center;
  
 }
 .example__cena-logo {
@@ -271,4 +271,46 @@ padding-bottom: 33px;
   height: 6px;
   background: #68B738;
   border-radius: 6px;
+}
+.place__cards {
+  display: flex;
+  padding: 28px 19px 22px;
+}
+.place__cards-text {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+}
+.place__cards-adres {
+  font-family: 'Font Arial';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+.footer {
+  background: #F2F2F2;
+ 
+}
+.footer__logo {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0 32px;
+  margin: 0 20px;
+  border-bottom: 1px solid #D9D9D9;
+}
+.footer__social {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+  padding: 25px 73px;
+  border-bottom: 1px solid #D9D9D9;
+}
+.footer__logotype {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 0;
+  margin: 0 20px;
+
 }
